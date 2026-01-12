@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>invente ~ Location de Châlets</title>
+  </head>
+  <body>
+    <header>
+      <section class="hero">
+        <nav class="navbar">
+          <!-- Logo -->
+
+          <a href="index.html">logo</a>
+
+          <!-- Liens -->
+
+          <ul class="liensNav">
+            <li><a href="./public/search.html">Rechercher</a></li>
+            <li><a href="./public/destination.html">Destinations</a></li>
+            <li><a href="./public/a_propos.html">À propos</a></li>
+            <li><a href="./public/contact.html">Contact</a></li>
+          </ul>
+
+          <div class="compte">
+            <a href="#" class="connexion">Connexion</a>
+            <a href="#" class="inscription">Inscription</a>
+          </div>
+        </nav>
+        <div class="heroContent">
+          <section class="title">
+            <!-- Titre -->
+            <h1 class="big">Votre refuge à la montagne</h1>
+            <h2 class="small">
+              Réservez des chalets uniques en toute simplicité
+            </h2>
+          </section>
+
+          <!-- Searchbar -->
+          <section class="searchBar">
+            <form
+              method="get"
+              action="./public/search.html"
+              class="formulaireRecherche"
+            >
+              <div class="recherche">
+                <label for="destination">Destination</label>
+                <input
+                  type="text"
+                  id="destination"
+                  placeholder="Ex : Chamonix"
+                />
+              </div>
+
+              <div class="recherche">
+                <label for="dateArrivee">Arrivée</label>
+                <input type="date" id="dateArrivee" />
+              </div>
+
+              <div class="recherche">
+                <label for="dateDepart">Départ</label>
+                <input type="date" id="dateDepart" />
+              </div>
+
+              <div class="recherche">
+                <label for="personnes">Personnes</label>
+                <select id="personnes">
+                  <option value="2">2 personnes</option>
+                  <option value="4">4 personnes</option>
+                  <option value="6">6 personnes</option>
+                  <option value="8">8 personnes</option>
+                  <option value="10">10+ personnes</option>
+                </select>
+              </div>
+
+              <button type="submit" class="rechercheBtn">Rechercher</button>
+            </form>
+          </section>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="chaletsPopulaires">
+        <div class="chaletTitre">
+          <h2>Chalets populaires</h2>
+          <a href="./public/search.html" class="voirTous"
+            >Voir tous les chalets</a
+          >
+        </div>
+
+        <div class="grilleChalet">
+          <!-- Chalet 1 -->
+          <article class="carteChalet">
+            <div class="chaletImage">
+              <img src="./assets/img/pexels-nina-rath-254312-774281.jpg" alt="Chalet Mont Blanc">
+              <span class="badgeCoupDeCoeur">Coup de cœur</span>
+            </div>
+
+            <div class="contenuCarte">
+              <h3>Chalet Mont Blanc</h3>
+              <p class="localisation">Chamonix, Alpes</p>
+
+              <div class="infosCarte">
+                <span>6 personnes</span>
+                <span>3 chambres</span>
+              </div>
+
+              <div class="note">
+                <span class="etoiles">★★★★★</span>
+                <span class="avis">(124 avis)</span>
+              </div>
+
+              <div class="prix"><strong>180€</strong> / nuit</div>
+
+              <a href="./public/chalet.html" class="boutonChalet"
+                >Voir les détails</a
+              >
+            </div>
+          </article>
+
+          <!-- Chalet 2 -->
+          <article class="carteChalet">
+            <div class="chaletImage">
+              <img src="./assets/img/pexels-eberhardgross-976906.jpg" alt="Chalet Business">
+              <span class="badgeCoupDeCoeur">Coup de cœur</span>
+            </div>
+
+            <div class="contenuCarte">
+              <h3>Chalet Business</h3>
+              <p class="localisation">La Plagne, Alpes</p>
+
+              <div class="infosCarte">
+                <span>8 personnes</span>
+                <span>4 chambres</span>
+              </div>
+
+              <div class="note">
+                <span class="etoiles">★★★★☆</span>
+                <span class="avis">(89 avis)</span>
+              </div>
+
+              <div class="prix"><strong>220€</strong> / nuit</div>
+
+              <a href="./public/chalet.html" class="boutonChalet"
+                >Voir les détails</a
+              >
+            </div>
+          </article>
+
+          <!-- Chalet 3 -->
+          <article class="carteChalet">
+            <div class="chaletImage">
+              <img src="./assets/img/pexels-eberhardgross-790585.jpg" alt="Chalet Famillial"/>
+              <span class="badgeCoupDeCoeur">Coup de cœur</span>
+            </div>
+
+            <div class="contenuCarte">
+              <h3>Chalet Famillial</h3>
+              <p class="localisation">Méribel, Alpes</p>
+
+              <div class="infosCarte">
+                <span>4 personnes</span>
+                <span>2 chambres</span>
+              </div>
+
+              <div class="note">
+                <span class="etoiles">★★★★★</span>
+                <span class="avis">(189 avis)</span>
+              </div>
+
+              <div class="prix"><strong>130€</strong> / nuit</div>
+
+              <a href="./public/chalet.html" class="boutonChalet"
+                >Voir les détails</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+        <!-- Pourquoi Nous ? -->
+      <section class="pourquoiNous">
+        <div class="pourquoiNousTitre">
+          <h2>Pourquoi nous choisir ?</h2>
+        </div>
+
+        <div class="avantageBar">
+          <!-- 1er Avantage -->
+           <article class="avantages">
+            <div class="icone">
+              <!-- Icone a trouver et foutre ici -->
+            </div>
+            <h3>Large Choix de Chalets</h3>
+            <p>Découvrez une large sélection de chalets authentiques et modernes, adaptés à tous les besoins et à tous les budgets.</p>
+           </article>
+
+           <!-- 2eme Avantage -->
+           <article class="avantages">
+            <div class="icone">
+              <!-- Icone a trouver et foutre ici -->
+            </div>
+            <h3>Réservation instantanée</h3>
+            <p>Réservez votre chalet en quelques clics grâce à un système simple, rapide et sécurisé.</p>
+           </article>
+
+           <!-- 3eme Avantage -->
+            <article class="avantages">
+              <div class="icone">
+                <!-- Icone a trouver et foutre ici -->
+              </div>
+              <h3>Annulation flexible</h3>
+              <p>Bénéficiez de politiques d’annulation claires et flexibles selon les conditions définies par le propriétaire.</p>
+            </article>
+
+           <!-- 4eme Avantage -->
+           <article class="avantages">
+            <div class="icone">
+              <!-- Icone a trouver et foutre ici -->
+            </div>
+            <h3>Service client 7j/7</h3>
+            <p>Notre équipe est disponible tous les jours pour vous accompagner avant, pendant et après votre séjour.</p>
+           </article>
+        </div>
+      </section>
+
+        <!-- Destination -->
+      <section class="destinations">
+        <div class="destinationsTitre">
+          <h2>Destinations populaires</h2>
+        </div>
+
+        <div class="grilleDestinations">
+          <article class="destinationCarte">
+            <img src="./assets/img/pexels-eberhardgross-976906.jpg" alt="Chamonix" />
+            <h3>Chamonix</h3>
+            <p>Alpes françaises</p>
+          </article>
+
+          <article class="destinationCarte">
+            <img src="./assets/img/pexels-lazaydin53-3750726.jpg" alt="Méribel" />
+            <h3>Méribel</h3>
+            <p>Savoie</p>
+          </article>
+
+          <article class="destinationCarte">
+            <img src="./assets/img/pexels-nina-rath-254312-774281.jpg" alt="La Plagne" />
+            <h3>La Plagne</h3>
+            <p>Tarentaise</p>
+          </article>
+
+          <article class="destinationCarte">
+            <img src="./assets/img/pexels-frans-van-heerden-201846-723177.jpg" alt="Megève" />
+            <h3>Megève</h3>
+            <p>Haute-Savoie</p>
+          </article>
+        </div>
+      </section>
+
+            <!-- Temoignages -->
+      <section class="temoignages">
+        <div class="temoignagesTitre">
+          <h2>Ils nous ont fait confiance</h2>
+        </div>
+
+        <div class="grilleTemoignages">
+          <article class="temoignageCarte">
+            <p class="avisTexte">“Chalet magnifique, réservation simple et rapide. Une expérience parfaite.”</p>
+            <div class="auteur">
+              <strong>Claire M.</strong>
+              <span>★★★★★</span>
+            </div>
+          </article>
+
+          <article class="temoignageCarte">“Service client réactif, chalet conforme aux photos.”</p>
+            <div class="auteur">
+              <strong>Julien R.</strong>
+              <span>★★★★☆</span>
+            </div>
+          </article>
+
+          <article class="temoignageCarte">
+            <p class="avisTexte">“Un séjour incroyable en famille, nous reviendrons sans hésiter.”</p>
+            <div class="auteur">
+              <strong>Sophie L.</strong>
+              <span>★★★★★</span>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="contenuFooter">
+
+        <!-- 1er colonne -->
+        <div class="colonne">
+          <h3>invente</h3>
+          <p>Plateforme de location de chalets de montagne pour des séjours uniques, authentiques et confortables.</p>
+        </div>
+
+        <!-- 2eme colonne -->
+        <div class="colonne">
+          <h4>Destinations</h4>
+          <ul>
+            <li><a href="#">Chamonix</a></li>
+            <li><a href="#">Méribel</a></li>
+            <li><a href="#">La Plagne</a></li>
+            <li><a href="#">Megève</a></li>
+          </ul>
+        </div>
+
+        <!-- 3eme colonne -->
+        <div class="colonne">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="./public/contact.html">Contact</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Conditions générales</a></li>
+            <li><a href="#">Politique de confidentialité</a></li>
+          </ul>
+        </div>
+
+        <!-- Colonne 4 -->
+        <div class="colonne">
+          <h4>Newsletter</h4>
+          <p>Recevez nos meilleures offres</p>
+          <form>
+            <input type="email" placeholder="Votre email" />
+            <button type="submit">S’inscrire</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footerBar">
+        <p>© 2026 invente — Tous droits réservés</p>
+      </div>
+    </footer>
+
+  </body>
+</html>

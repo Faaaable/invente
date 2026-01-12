@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter;
+  color: #1a1a1a;
+  background-color: #ffffff;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url("/invente/assets/img/pexels-frans-van-heerden-201846-723177.jpg") center / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 6%;
+  color: #ffffff;
+}
+
+.liensNav {
+  display: flex;
+  gap: 24px;
+}
+
+.compte {
+  display: flex;
+  gap: 12px;
+}
+
+.compte a {
+  padding: 6px 14px;
+  border: 1px solid #ffffff;
+  font-size: 0.9rem;
+}
+
+.heroContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 32px;
+  padding: 40px 20px;
+}
+
+.title .big {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.title .small {
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+.searchBar {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.formulaireRecherche {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) auto;
+  gap: 16px;
+  align-items: end;
+}
+
+.recherche {
+  display: flex;
+  flex-direction: column;
+}
+
+.recherche label {
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}
+
+.recherche input, .recherche select {
+  padding: 8px;
+  border: 1px solid #cccccc;
+}
+
+.rechercheBtn {
+  padding: 10px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: none;
+}
+
+main section {
+  padding: 80px 6%;
+}
+
+.chaletTitre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.grilleChalet {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 32px;
+}
+
+.carteChalet {
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
+}
+
+/* Images cartes */
+.chaletImage {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+}
+
+.chaletImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.badgeCoupDeCoeur {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 4px 8px;
+  font-size: 0.75rem;
+}
+
+.contenuCarte {
+  padding: 16px;
+}
+
+.localisation {
+  font-size: 0.9rem;
+  color: #666666;
+}
+
+.infosCarte {
+  display: flex;
+  gap: 12px;
+  font-size: 0.85rem;
+  margin: 8px 0;
+}
+
+.note {
+  font-size: 0.85rem;
+}
+
+.prix {
+  margin: 10px 0;
+}
+
+.boutonChalet {
+  display: inline-block;
+  padding: 8px 14px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.pourquoiNous {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.avantageBar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.avantages {
+  background-color: #ffffff;
+  padding: 24px;
+  border: 1px solid #dddddd;
+}
+
+.grilleDestinations {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.destinationCarte {
+  border: 1px solid #dddddd;
+  text-align: center;
+}
+
+.destinationCarte img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.temoignages {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.grilleTemoignages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.temoignageCarte {
+  background-color: #ffffff;
+  padding: 24px;
+  border: 1px solid #dddddd;
+}
+
+.footer {
+  background: #F5F5F5;
+  color: #4A4A4A;
+  padding: 60px 6% 30px;
+}
+
+.footer a {
+  color: #1A1A1A;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.contenuFooter {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+}
+
+.colonne ul li {
+  margin-bottom: 8px;
+}
+
+.colonne input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+.colonne button {
+  width: 100%;
+  padding: 8px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: none;
+}
+
+.footerBar {
+  margin-top: 32px;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 900px) {
+  .formulaireRecherche {
+    grid-template-columns: 1fr;
+  }
+
+  .liensNav {
+    display: none;
+  }
+
+  .titre .big {
+    font-size: 2rem;
+  }
+
+  .titre .small {
+    font-size: 1rem;
+  }
+}
