@@ -66,6 +66,7 @@
               <div class="recherche">
                 <label for="personnes">Personnes</label>
                 <select id="personnes">
+                  <option value="1">1 personnes</option>
                   <option value="2">2 personnes</option>
                   <option value="4">4 personnes</option>
                   <option value="6">6 personnes</option>
@@ -74,7 +75,7 @@
                 </select>
               </div>
 
-              <button type="submit" class="rechercheBtn">Rechercher</button>
+              <button type="submit" class="rechercheBtn" aria-label="Rechercher">🔍</button>
             </form>
           </section>
         </div>
@@ -224,38 +225,47 @@
         </div>
       </section>
 
-        <!-- Destination -->
-      <section class="destinations">
+        <!-- DESTINATION -->
+       <section class="destinations">
         <div class="destinationsTitre">
           <h2>Destinations populaires</h2>
         </div>
 
         <div class="grilleDestinations">
           <article class="destinationCarte">
-            <img src="./assets/img/pexels-eberhardgross-976906.jpg" alt="Chamonix" />
-            <h3>Chamonix</h3>
-            <p>Alpes françaises</p>
+            <img src="./assets/img/pexels-eberhardgross-976906.jpg" alt="Chamonix">
+            <div class="destinationOverlay">
+              <h3>Chamonix</h3>
+              <span>1 chalet</span>
+            </div>
           </article>
 
           <article class="destinationCarte">
-            <img src="./assets/img/pexels-lazaydin53-3750726.jpg" alt="Méribel" />
-            <h3>Méribel</h3>
-            <p>Savoie</p>
+            <img src="./assets/img/pexels-lazaydin53-3750726.jpg" alt="Méribel">
+            <div class="destinationOverlay">
+              <h3>Méribel</h3>
+              <span>1 chalet</span>
+            </div>
           </article>
 
           <article class="destinationCarte">
-            <img src="./assets/img/pexels-nina-rath-254312-774281.jpg" alt="La Plagne" />
-            <h3>La Plagne</h3>
-            <p>Tarentaise</p>
+            <img src="./assets/img/pexels-nina-rath-254312-774281.jpg" alt="La Plagne">
+            <div class="destinationOverlay">
+              <h3>La Plagne</h3>
+              <span>1 chalet</span>
+            </div>
           </article>
 
           <article class="destinationCarte">
-            <img src="./assets/img/pexels-frans-van-heerden-201846-723177.jpg" alt="Megève" />
-            <h3>Megève</h3>
-            <p>Haute-Savoie</p>
+            <img src="./assets/img/pexels-frans-van-heerden-201846-723177.jpg" alt="Megève">
+            <div class="destinationOverlay">
+              <h3>Megève</h3>
+              <span>1 chalet</span>
+            </div>
           </article>
         </div>
       </section>
+
 
             <!-- Temoignages -->
       <section class="temoignages">
@@ -267,23 +277,23 @@
           <article class="temoignageCarte">
             <p class="avisTexte">“Chalet magnifique, réservation simple et rapide. Une expérience parfaite.”</p>
             <div class="auteur">
-              <strong>Claire M.</strong>
-              <span>★★★★★</span>
+              <h4><strong>Claire M.</strong></h4>
+              <div class="etoiles">★★★★☆</div>
             </div>
           </article>
 
           <article class="temoignageCarte">“Service client réactif, chalet conforme aux photos.”</p>
             <div class="auteur">
-              <strong>Julien R.</strong>
-              <span>★★★★☆</span>
+              <h4><strong>Julien R.</strong></h4>
+              <div class="etoiles">★★★☆☆</div>
             </div>
           </article>
 
           <article class="temoignageCarte">
             <p class="avisTexte">“Un séjour incroyable en famille, nous reviendrons sans hésiter.”</p>
             <div class="auteur">
-              <strong>Sophie L.</strong>
-              <span>★★★★★</span>
+              <h4><strong>Sophie L.</strong></h4>
+              <div class="etoiles">★★★★★</div>
             </div>
           </article>
         </div>
