@@ -90,18 +90,18 @@ img {
 }
 
 .searchBar {
-  background-color: #ffffff; /* fond blanc */
+  background-color: #ffffff; 
   padding: 24px;
   border-radius: 8px;
   width: 100%;
   max-width: 1000px;
-  margin: 0 auto; /* centrée */
+  margin: 0 auto;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .searchBar .formulaireRecherche {
   display: grid;
-  grid-template-columns: repeat(4, 1fr) auto; /* 4 champs + bouton */
+  grid-template-columns: repeat(4, 1fr) auto;
   gap: 16px;
   align-items: center;
 }
@@ -114,7 +114,7 @@ img {
 .searchBar .recherche label {
   font-size: 0.85rem;
   margin-bottom: 6px;
-  color: #1a1a1a; /* texte noir comme sur search.html */
+  color: #1a1a1a;
 }
 
 .searchBar .recherche input,
@@ -128,13 +128,13 @@ img {
 
 .searchBar .recherche input:focus,
 .searchBar .recherche select:focus {
-  border-color: #1a1a1a; /* focus style identique à search.html */
+  border-color: #1a1a1a;
 }
 
 .searchBar .rechercheBtn {
   width: 44px;
   height: 44px;
-  border-radius: 50%; /* bouton rond */
+  border-radius: 50%;
   background-color: #1a1a1a;
   color: #ffffff;
   border: none;
@@ -151,7 +151,7 @@ img {
 }
 
 .searchBar .rechercheBtn {
-  width: 100%; /* le bouton prend toute la largeur sur mobile */
+  width: 100%;
   border-radius: 6px;
 }
 
