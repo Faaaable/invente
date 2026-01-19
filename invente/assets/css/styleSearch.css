@@ -37,8 +37,7 @@ img {
 .header {
   background:
     linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url("../img/pexels-lazaydin53-3750726.jpg")
-      center / cover no-repeat;
+    url("../img/pexels-lazaydin53-3750726.jpg") center / cover no-repeat;
   display: flex;
   flex-direction: column;
   padding: 16px 24px 32px;
@@ -72,7 +71,7 @@ img {
 }
 
 .nav a:hover {
-  color: white;
+  color: #ffffff;
   transition: calc(0.2s);
 }
 

@@ -57,6 +57,11 @@ img {
   gap: 24px;
 }
 
+.liensNav a:hover {
+  color: white;
+  transition: calc(0.2s);
+}
+
 .compte {
   display: flex;
   gap: 12px;
@@ -131,7 +136,7 @@ img {
   border-color: #1a1a1a;
 }
 
-.searchBar .rechercheBtn {
+/* .searchBar .rechercheBtn {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -144,7 +149,7 @@ img {
   justify-content: center;
   cursor: pointer;
   transition: background-color 0.2s;
-}
+} */
 
 .searchBar .rechercheBtn:hover {
   background-color: #333333;
