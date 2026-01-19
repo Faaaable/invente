@@ -250,6 +250,12 @@ main section {
   border: 1px solid #dddddd;
 }
 
+.icone {
+  display: block;
+  justify-items: center;
+  padding: 6px;
+}
+
 .icone img {
   width: 60px;
 }
