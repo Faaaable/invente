@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
@@ -32,10 +32,12 @@
 
         <div class="search">
           <label>Dates d’arrivée / départ</label>
-          <input type="date"
+          <input
+            type="date"
             placeholder="Quand ?"
-            onfocus="this.type='date'"
-            onblur="if(!this.value)this.type='text'"/>
+            onfocus="this.type = 'date'"
+            onblur="if (!this.value) this.type = 'text';"
+          />
         </div>
 
         <div class="search">
@@ -226,47 +228,48 @@
     </main>
 
     <footer class="footer">
-  <div class="contenuFooter">
+      <div class="contenuFooter">
+        <div class="colonne">
+          <h3>invente</h3>
+          <p>
+            Plateforme de location de chalets de montagne pour des séjours
+            uniques, authentiques et confortables.
+          </p>
+        </div>
 
-    <div class="colonne">
-      <h3>invente</h3>
-      <p>Plateforme de location de chalets de montagne pour des séjours uniques, authentiques et confortables.</p>
-    </div>
+        <div class="colonne">
+          <h4>Destinations</h4>
+          <ul>
+            <li><a href="#">Chamonix</a></li>
+            <li><a href="#">Méribel</a></li>
+            <li><a href="#">La Plagne</a></li>
+            <li><a href="#">Megève</a></li>
+          </ul>
+        </div>
 
-    <div class="colonne">
-      <h4>Destinations</h4>
-      <ul>
-        <li><a href="#">Chamonix</a></li>
-        <li><a href="#">Méribel</a></li>
-        <li><a href="#">La Plagne</a></li>
-        <li><a href="#">Megève</a></li>
-      </ul>
-    </div>
+        <div class="colonne">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="../public/contact.html">Contact</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Conditions générales</a></li>
+            <li><a href="#">Politique de confidentialité</a></li>
+          </ul>
+        </div>
 
-    <div class="colonne">
-      <h4>Support</h4>
-      <ul>
-        <li><a href="../public/contact.html">Contact</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Conditions générales</a></li>
-        <li><a href="#">Politique de confidentialité</a></li>
-      </ul>
-    </div>
+        <div class="colonne">
+          <h4>Newsletter</h4>
+          <p>Recevez nos meilleures offres</p>
+          <form>
+            <input type="email" placeholder="Votre email" />
+            <button type="submit">S’inscrire</button>
+          </form>
+        </div>
+      </div>
 
-    <div class="colonne">
-      <h4>Newsletter</h4>
-      <p>Recevez nos meilleures offres</p>
-      <form>
-        <input type="email" placeholder="Votre email" />
-        <button type="submit">S’inscrire</button>
-      </form>
-    </div>
-  </div>
-
-  <div class="footerBar">
-    <p>© 2026 invente — Tous droits réservés</p>
-  </div>
-</footer>
-
+      <div class="footerBar">
+        <p>© 2026 invente — Tous droits réservés</p>
+      </div>
+    </footer>
   </body>
 </html>

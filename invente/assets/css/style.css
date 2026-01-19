@@ -36,8 +36,10 @@ img {
 
 .hero {
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url("/invente/assets/img/pexels-frans-van-heerden-201846-723177.jpg") center / cover no-repeat;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url("/invente/assets/img/pexels-frans-van-heerden-201846-723177.jpg")
+      center / cover no-repeat;
   display: flex;
   flex-direction: column;
 }
@@ -94,7 +96,7 @@ img {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto; /* centrée */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .searchBar .formulaireRecherche {
@@ -149,10 +151,9 @@ img {
 }
 
 .searchBar .rechercheBtn {
-    width: 100%; /* le bouton prend toute la largeur sur mobile */
-    border-radius: 6px;
-  }
-
+  width: 100%; /* le bouton prend toute la largeur sur mobile */
+  border-radius: 6px;
+}
 
 main section {
   padding: 80px 6%;
@@ -261,8 +262,10 @@ main section {
   overflow: hidden;
   border-radius: 12px;
   cursor: pointer;
-  transition: transform 0.3s, box-shadow 0.3s;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .destinationCarte img {
@@ -277,7 +280,7 @@ main section {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
   color: #fff;
   padding: 12px;
   text-align: left;
@@ -295,13 +298,12 @@ main section {
 
 .destinationCarte:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .destinationCarte:hover img {
   transform: scale(1.05);
 }
-
 
 .temoignages {
   background-color: #f5f5f5;
@@ -323,18 +325,18 @@ main section {
 
 .etoiles {
   margin-top: 4px;
-  color: #F5A623;
+  color: #f5a623;
   font-size: 14px;
 }
 
 .footer {
-  background: #F5F5F5;
-  color: #4A4A4A;
+  background: #f5f5f5;
+  color: #4a4a4a;
   padding: 60px 6% 30px;
 }
 
 .footer a {
-  color: #1A1A1A;
+  color: #1a1a1a;
 }
 
 .footer a:hover {
@@ -372,7 +374,6 @@ main section {
 }
 
 @media (max-width: 900px) {
-
   .searchBar .formulaireRecherche {
     grid-template-columns: 1fr;
     gap: 12px;
